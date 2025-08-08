@@ -4,7 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>صفحة الهبوط</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+    }
+    header {
+        background: #008080;
+        color: white;
+        padding: 60px 0 40px 0;
+        text-align: center;
+    }
+    .container {
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+    }
+    .btn {
+        display: inline-block;
+        background: #25d366;
+        color: #fff;
+        padding: 12px 32px;
+        margin-top: 16px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 1.1em;
+        transition: background 0.2s;
+    }
+    .btn:hover {
+        background: #128c7e;
+    }
+    section {
+        margin: 40px 0;
+    }
+    .services {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.1);
+        padding: 24px 0;
+    }
+    .service-box {
+        background: #f1f1f1;
+        margin: 16px 0;
+        padding: 16px;
+        border-radius: 6px;
+        text-align: right;
+    }
+    footer {
+        background: #222;
+        color: #fff;
+        text-align: center;
+        padding: 14px 0;
+        margin-top: 40px;
+    }
+    .whatsapp-float {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background: #25d366;
+        color: #fff;
+        border-radius: 50%;
+        padding: 14px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+        z-index: 100;
+    }
+    .phone-float {
+        position: fixed;
+        bottom: 100px;
+        left: 30px;
+        background: #008080;
+        color: #fff;
+        border-radius: 50%;
+        padding: 14px;
+        font-size: 26px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+        z-index: 100;
+        text-decoration: none;
+    }
+    </style>
 </head>
 <body>
 
@@ -55,7 +135,7 @@
 <!-- زر واتساب عائم بأيقونة واتساب حقيقية -->
 <a href="https://wa.me/201234567890" class="whatsapp-float" target="_blank" title="تواصل واتساب" aria-label="WhatsApp">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 448 512" fill="white">
-        <path d="M380.9 97.1C339-4.6 222.3-31.7 135.1 21.3 47.8 74.3 21.6 191.7 64.4 285.7l-33.7 99.8c-3.3 9.7 6.3 19.3 16 16l99.8-33.7c93.8 42.8 211.3 16.5 264.3-71.1 53-87.5 25.9-204.2-71.1-256.6zm-207.7 296.6c-6.2-3-12.5-5.9-18.8-8.6l-7.1-3.1-59.2 19.9 19.9-59.2-3.1-7.1c-2.7-6.4-5.6-12.6-8.6-18.8-34.1-68.3-11.1-151.8 54.1-193.1 65.2-41.3 153.4-24.1 193.1 54.1 41.3 65.2 24.1 153.4-54.1 193.1zm130.9-99.3c-5.6-2.8-33-16.3-38.1-18.2-5.1-1.9-8.8-2.8-12.5 2.8s-14.4 18.2-17.7 21.9c-3.2 3.7-6.5 4.1-12.1 1.4-33.6-16.8-55.6-30.1-78.1-68.2-5.9-10.1 5.9-9.4 16.8-31.3 1.9-3.7.9-6.9-.5-9.7s-12.5-30.1-17.1-41.2c-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2s-9.7 1.4-14.7 7c-5.1 5.6-19.9 19.4-19.9 47.3 .3 27.8 19.8 54.8 22.5 58.6 2.8 3.7 39.1 59.8 94.8 82.9 13.2 5.6 23.5 8.9 31.6 11.3 13.3 4.2 25.4 3.6 35-2.2 10.7-6.2 17.5-15.5 19.9-21.9 2.4-6.3 2.4-11.7 1.7-12.9-1-1.4-5.1-2.3-10.7-5.1z"/>
+        <path d="M380.9 97.1C339-4.6 222.3-31.7 135.1 21.3 47.8 74.3 21.6 191.7 64.4 285.7l-33.7 99.8c-3.3 9.7 6.3 19.3 16 16l99.8-33.7c93.8 42.8 211.3 16.5 264.3-71.1 53-87.5 25.9-204.2-71.1-256.6zm-[...]"/>
     </svg>
 </a>
 
