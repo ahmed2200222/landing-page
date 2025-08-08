@@ -1,1 +1,148 @@
-# landing-page
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الهبوط</title>
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+    }
+    header {
+        background: #008080;
+        color: white;
+        padding: 60px 0 40px 0;
+        text-align: center;
+    }
+    .container {
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+    }
+    .btn {
+        display: inline-block;
+        background: #25d366;
+        color: #fff;
+        padding: 12px 32px;
+        margin-top: 16px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 1.1em;
+        transition: background 0.2s;
+    }
+    .btn:hover {
+        background: #128c7e;
+    }
+    section {
+        margin: 40px 0;
+    }
+    .services {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.1);
+        padding: 24px 0;
+    }
+    .service-box {
+        background: #f1f1f1;
+        margin: 16px 0;
+        padding: 16px;
+        border-radius: 6px;
+        text-align: right;
+    }
+    footer {
+        background: #222;
+        color: #fff;
+        text-align: center;
+        padding: 14px 0;
+        margin-top: 40px;
+    }
+    .whatsapp-float {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background: #25d366;
+        color: #fff;
+        border-radius: 50%;
+        padding: 14px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+        z-index: 100;
+    }
+    .phone-float {
+        position: fixed;
+        bottom: 100px;
+        left: 30px;
+        background: #008080;
+        color: #fff;
+        border-radius: 50%;
+        padding: 14px;
+        font-size: 26px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+        z-index: 100;
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>أهلاً بك في موقعنا</h1>
+        <p>هنا تكتب وصف قصير عن خدمتك أو منتجك</p>
+        <a href="#contact" class="btn">تواصل معنا</a>
+    </div>
+</header>
+
+<section class="about">
+    <div class="container">
+        <h2>من نحن</h2>
+        <p>هنا تكتب نبذة عنك أو عن شركتك، يمكنك تعديل هذا النص من الملف بسهولة.</p>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <h2>خدماتنا</h2>
+        <div class="service-box">
+            <h3>خدمة 1</h3>
+            <p>شرح مختصر عن الخدمة الأولى.</p>
+        </div>
+        <div class="service-box">
+            <h3>خدمة 2</h3>
+            <p>شرح مختصر عن الخدمة الثانية.</p>
+        </div>
+        <div class="service-box">
+            <h3>خدمة 3</h3>
+            <p>شرح مختصر عن الخدمة الثالثة.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>تواصل معنا</h2>
+        <p>يمكنك التواصل معنا عبر البريد الإلكتروني: example@email.com</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 جميع الحقوق محفوظة</p>
+</footer>
+
+<!-- زر واتساب عائم بأيقونة واتساب حقيقية -->
+<a href="https://wa.me/201234567890" class="whatsapp-float" target="_blank" title="تواصل واتساب" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 448 512" fill="white">
+        <path d="M380.9 97.1C339-4.6 222.3-31.7 135.1 21.3 47.8 74.3 21.6 191.7 64.4 285.7l-33.7 99.8c-3.3 9.7 6.3 19.3 16 16l99.8-33.7c93.8 42.8 211.3 16.5 264.3-71.1 53-87.5 25.9-204.2-71.1-256.6zm-[...]"/>
+    </svg>
+</a>
+
+<!-- زر اتصال هاتفي عائم -->
+<a href="tel:201234567890" class="phone-float" title="اتصال هاتفي">
+    📞
+</a>
+
+</body>
+</html>
