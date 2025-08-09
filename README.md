@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>صفحة الهبوط</title>
+    <title>ابو حازم للمفروشات وتركيب الستائر</title>
     <style>
     body {
         font-family: 'Arial', sans-serif;
@@ -90,8 +90,8 @@
 
 <header>
     <div class="container">
-        <h1>أهلاً بك في موقعنا</h1>
-        <p>هنا تكتب وصف قصير عن خدمتك أو منتجك</p>
+        <h1>تفصيل ديوانيات وتركيب ستائر</h1>
+        <p>افضل الخامات واقل الاسعار</p>
         <a href="#contact" class="btn">تواصل معنا</a>
     </div>
 </header>
