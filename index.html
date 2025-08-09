@@ -1,112 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Welcome to My Landing Page</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', Arial, sans-serif;
-      background: #f5f7fa;
-      color: #222;
-    }
-    .hero {
-      background: linear-gradient(135deg, #4f8cff 0%, #235390 100%);
-      color: #fff;
-      text-align: center;
-      padding: 80px 20px 60px 20px;
-    }
-    .hero h1 {
-      font-size: 2.8em;
-      margin-bottom: 20px;
-      letter-spacing: 2px;
-    }
-    .hero p {
-      font-size: 1.25em;
-      margin-bottom: 32px;
-    }
-    .hero .cta-btn {
-      background: #fff;
-      color: #235390;
-      border: none;
-      padding: 18px 40px;
-      font-size: 1.15em;
-      border-radius: 30px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background 0.2s, color 0.2s;
-      text-decoration: none;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-    .hero .cta-btn:hover {
-      background: #235390;
-      color: #fff;
-    }
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 60px 0 30px 0;
-      gap: 32px;
-    }
-    .feature {
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-      padding: 32px 24px;
-      max-width: 320px;
-      flex: 1 1 280px;
-      text-align: center;
-    }
-    .feature h2 {
-      font-size: 1.4em;
-      margin-bottom: 14px;
-      color: #235390;
-    }
-    .feature p {
-      font-size: 1em;
-      color: #444;
-    }
-    .footer {
-      text-align: center;
-      color: #888;
-      font-size: 1em;
-      padding: 36px 10px 20px 10px;
-    }
-    @media (max-width: 800px) {
-      .features {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أبو حازم للأثاث والمفروشات</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0faff; /* سماوي فاتح */
+            color: #333;
+            line-height: 1.8;
+        }
+        header {
+            background: linear-gradient(to right, #00b4d8, #ff7f50); /* سماوي مع برتقالي */
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        header p {
+            font-size: 2rem; /* تكبير العبارة */
+            font-weight: bold;
+        }
+        section {
+            padding: 30px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #ff7f50;
+            margin-bottom: 15px;
+        }
+        section p {
+            font-size: 1.5rem;
+            color: #444;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        /* أزرار الاتصال العائمة */
+        .call-float, .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            color: white;
+            font-size: 28px;
+            text-align: center;
+            line-height: 60px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            z-index: 999;
+            text-decoration: none;
+        }
+        .call-float {
+            right: 90px;
+            background: #28a745;
+        }
+        .whatsapp-float {
+            right: 20px;
+            background: #25d366;
+        }
+        .whatsapp-float img {
+            width: 35px;
+            height: 35px;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
-  <section class="hero">
-    <h1>Welcome to My Landing Page</h1>
-    <p>This is a simple, modern landing page hosted with GitHub Pages. Start your journey here!</p>
-    <a href="#features" class="cta-btn">Learn More</a>
-  </section>
 
-  <section class="features" id="features">
-    <div class="feature">
-      <h2>Fast & Free Hosting</h2>
-      <p>Your site is live on GitHub Pages in seconds, with zero cost.</p>
-    </div>
-    <div class="feature">
-      <h2>Easy to Customize</h2>
-      <p>Edit this page directly on GitHub to make it your own, anytime.</p>
-    </div>
-    <div class="feature">
-      <h2>Responsive Design</h2>
-      <p>Looks great on phones, tablets, and desktops without extra effort.</p>
-    </div>
-  </section>
+<header>
+    <h1>أبو حازم للأثاث والمفروشات</h1>
+    <p>حيث الأناقة والفخامة تلتقي مع الذوق الرفيع</p>
+</header>
 
-  <div class="footer">
-    &copy; 2025 Your Name. Powered by <a href="https://pages.github.com/" style="color:#4f8cff;text-decoration:none;">GitHub Pages</a>.
-  </div>
+<section>
+    <h2>تفصيل جميع أنواع الديوانيات والجلسات</h2>
+    <p>
+        نقدم تصميمات كلاسيك وكودرن بجودة عالية، جميعها باختيار العميل وحسب الطلب.
+        نضع لمستنا الخاصة لنمنحك جلسة مريحة وجذابة تليق بمناسباتك وأجواء منزلك.
+    </p>
+</section>
+
+<section style="background: #e0f7fa;">
+    <h2>تفصيل وتركيب ستائر الروول والويفي</h2>
+    <p>
+        أحدث الخامات وأقل الأسعار، ندمج بين الجمال والعملية لتناسب كافة المساحات.
+        ستائرنا تمنحك إطلالة أنيقة وتتحكم في الضوء بلمسة عصرية.
+    </p>
+</section>
+
+<section>
+    <h2>تفصيل جميع أنواع السجاد</h2>
+    <p>
+        نوفر لك خيارات واسعة من السجاد الفاخر بمقاسات وألوان تناسب ذوقك.
+        جودة تدوم لسنوات مع تصميمات تضيف الدفء والرقي إلى أي مكان.
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 أبو حازم للأثاث والمفروشات - جميع الحقوق محفوظة</p>
+</footer>
+
+<!-- أزرار الاتصال العائمة -->
+<a href="tel:201234567890" class="call-float">📞</a>
+<a href="https://wa.me/201234567890" target="_blank" class="whatsapp-float">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+
 </body>
 </html>
