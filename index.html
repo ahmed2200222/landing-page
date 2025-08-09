@@ -9,12 +9,12 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: #f0faff; /* سماوي فاتح */
+            background: #f0faff;
             color: #333;
             line-height: 1.8;
         }
         header {
-            background: linear-gradient(to right, #00b4d8, #ff7f50); /* سماوي مع برتقالي */
+            background: linear-gradient(to right, #00b4d8, #ff7f50);
             color: white;
             text-align: center;
             padding: 50px 20px;
@@ -24,7 +24,7 @@
             margin-bottom: 15px;
         }
         header p {
-            font-size: 2rem; /* تكبير العبارة */
+            font-size: 2rem;
             font-weight: bold;
         }
         section {
@@ -41,6 +41,22 @@
             color: #444;
             max-width: 800px;
             margin: auto;
+        }
+        /* توحيد حجم الصور وجعلها متجاوبة */
+        section img {
+            max-width: 60%;   /* أصغر من كامل الصفحة */
+            width: 500px;     /* حجم ثابت للشاشات الكبيرة */
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 15px auto;
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+            section img {
+                max-width: 90%; /* أصغر على الموبايل */
+                width: auto;
+            }
         }
         footer {
             background: #333;
@@ -88,9 +104,10 @@
 <section>
     <h2>تفصيل جميع أنواع الديوانيات والجلسات</h2>
     <p>
-        نقدم تصميمات كلاسيك وكودرن بجودة عالية، جميعها باختيار العميل وحسب الطلب.
+        نقدم تصميمات كلاسيك ومودرن بجودة عالية، جميعها باختيار العميل وحسب الطلب.
         نضع لمستنا الخاصة لنمنحك جلسة مريحة وجذابة تليق بمناسباتك وأجواء منزلك.
     </p>
+    <img src="https://www2.0zz0.com/2025/08/09/09/684361380.jpg" alt="ديوانيات وجلسات">
 </section>
 
 <section style="background: #e0f7fa;">
@@ -99,6 +116,7 @@
         أحدث الخامات وأقل الأسعار، ندمج بين الجمال والعملية لتناسب كافة المساحات.
         ستائرنا تمنحك إطلالة أنيقة وتتحكم في الضوء بلمسة عصرية.
     </p>
+    <img src="https://www2.0zz0.com/2025/08/09/09/882721416.jpg" alt="ستائر">
 </section>
 
 <section>
@@ -107,6 +125,7 @@
         نوفر لك خيارات واسعة من السجاد الفاخر بمقاسات وألوان تناسب ذوقك.
         جودة تدوم لسنوات مع تصميمات تضيف الدفء والرقي إلى أي مكان.
     </p>
+    <img src="https://www2.0zz0.com/2025/08/09/09/253049718.jpg" alt="سجاد فاخر">
 </section>
 
 <footer>
@@ -114,8 +133,8 @@
 </footer>
 
 <!-- أزرار الاتصال العائمة -->
-<a href="tel:90064692" class="call-float">📞</a>
-<a href="https://wa.me/96590064692" target="_blank" class="whatsapp-float">
+<a href="tel:201234567890" class="call-float">📞</a>
+<a href="https://wa.me/201234567890" target="_blank" class="whatsapp-float">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
 </a>
 
